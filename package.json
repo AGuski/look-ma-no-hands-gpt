@@ -1,0 +1,38 @@
+{
+  "name": "look-ma-no-hands-gpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start": "ts-node --files src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU",
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.2",
+    "@google-cloud/speech": "^5.4.0",
+    "@google-cloud/text-to-speech": "^4.2.1",
+    "@types/express": "^4.17.17",
+    "@types/socket.io": "^3.0.2",
+    "audiobuffer-to-wav": "^1.0.0",
+    "dotenv": "^16.0.3",
+    "elevenlabs-node": "^1.0.2",
+    "express": "^4.18.2",
+    "keypress": "^0.2.1",
+    "node-microphone": "^0.1.6",
+    "openai": "^3.2.1",
+    "play-sound": "^1.1.5",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "@types/node-microphone": "^0.1.1",
+    "@types/play-sound": "^1.1.0",
+    "@types/webaudioapi": "^0.0.27",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}

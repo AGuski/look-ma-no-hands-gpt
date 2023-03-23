@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts", "types/keypress.d.ts", "types/elevenlabs-node.d.ts"],
+  "exclude": ["node_modules"]
+}
